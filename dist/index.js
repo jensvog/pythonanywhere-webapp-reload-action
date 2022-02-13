@@ -4780,7 +4780,7 @@ try {
     const host = core.getInput('host');
     const username = core.getInput('username');
     const apiToken = core.getInput('api-token');
-    const domainName = core.getInput('app-name');
+    const domainName = core.getInput('domain-name');
 
     const url = `https://${host}/api/v0/user/${username}/webapps/${domainName}/reload/`
 
