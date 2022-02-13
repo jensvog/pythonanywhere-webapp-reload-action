@@ -1,0 +1,22 @@
+{
+  "name": "pythonanywhere-webapp-reload-action",
+  "version": "1.0.0",
+  "description": "GitHub action to reload a webapp on pythonanywhere",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "action",
+    "pythonanywhere",
+    "reload",
+    "webapp"
+  ],
+  "author": "jensvog",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "axios": "^0.25.0"
+  }
+}
