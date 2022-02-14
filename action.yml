@@ -3,7 +3,6 @@ description: 'GitHub action to reload a webapp on pythonanywhere'
 inputs:
   host:
     description: 'Pythonanywhere host (EU/US), can be either eu.pythonanywhere.com or www.pythonanywhere.com (default)'
-    required: true
     default: 'www.pythonanyhwere.com'
   username:
     description: 'Username for pythonanywhere'
