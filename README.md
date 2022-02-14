@@ -30,7 +30,7 @@ In order to use the action, it must be integrated to the workflow:
 ```
 
 | Parameter | Required | Information |
-| --------  | ----------- |
+| --------  | -------- | ----------- |
 | host | No | Pythonanywhere host (EU/US). This can be either `eu.pythonanywhere.com` or `www.pythonanywhere.com` (default). |
 | username | Yes | Your username for pythonanywhere. |
 | api-token | Yes | Generated API token from pythonanywhere. |
