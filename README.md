@@ -6,7 +6,7 @@ Python (i.e. Django, Flask, ...). The web app can be updated by copying files
 to the server with various technologies (i.e. Git, SSH, ...) but afterwards the
 web app has to be restarted manually. Otherwise the web app is not updated.
 
-In order to enable a continuous deployment to pythoanywhere, this GitHub action
+In order to enable a continuous deployment to pythonanywhere, this GitHub action
 automatically updates your pythonanywhere web app with the help of their
 [API](https://help.pythonanywhere.com/pages/API/).
 
@@ -34,13 +34,13 @@ In order to use the action, it must be integrated to the workflow:
 | host | No | Pythonanywhere host (EU/US). This can be either `eu.pythonanywhere.com` or `www.pythonanywhere.com` (default). |
 | username | Yes | Your username for pythonanywhere. |
 | api-token | Yes | Generated API token from pythonanywhere. |
-| domain-name | Yes | The domain of the webapp you want to reload (`www.example.com` or `user.pythonanyhwere.com`). |
+| domain-name | Yes | The domain of the webapp you want to reload (`www.example.com` or `user.pythonanywhere.com`). |
 
 ### Get API token
 
 In order to get the API token you have
 
-1. Login into your pythonanyhwere account.
+1. Login into your pythonanywhere account.
 2. Navigate to `Account`.
 3. Click on section `API token`.
 4. Generate an API token and save it.
