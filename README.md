@@ -71,8 +71,8 @@ jobs:
         with:
           host: 'eu.pythonanywhere.com'
           username: {{ secrets.USERNAME }}
-          api-token: {{ secrets.APITOKEN }}
-          domain-name: {{ secrets.DOMAINNAME }}
+          api-token: {{ secrets.API_TOKEN }}
+          domain-name: {{ secrets.DOMAIN_NAME }}
 ```
 
 # License
