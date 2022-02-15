@@ -51,7 +51,8 @@ xml.
 
 # Example
 
-This example reloads a pythonanywhere webapp.
+This example reloads a pythonanywhere webapp. Before reloading the webapp,
+upload your new files to the server.
 
 ```yaml
 name: Deploy pythonanywhere webapp
