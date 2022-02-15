@@ -21,7 +21,7 @@ interface.
 In order to use the action, it must be integrated to the workflow:
 
 ```yaml
-- uses: jensvog/pythonanywhere-webapp-reload-action@main
+- uses: jensvog/pythonanywhere-webapp-reload-action@v1
   with:
     host: <pythonanywhere host>
     username: <your username>
@@ -67,7 +67,7 @@ jobs:
       # ...
 
       - name: Reload webapp
-        uses: jensvog/pythonanywhere-webapp-reload-action@main
+        uses: jensvog/pythonanywhere-webapp-reload-action@v1
         with:
           host: 'eu.pythonanywhere.com'
           username: {{ secrets.USERNAME }}
